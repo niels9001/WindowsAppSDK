@@ -1,20 +1,30 @@
-﻿# Windows App SDK - Calling all Windows developers!
+﻿![Windows App SDK hero image](docs/images/header.png)
 
-*Previously known as Project Reunion*.
+<h1 align="center">
+    Windows App SDK
+</h1>
 
-| Delight users with modern UI | Access new platform features | Backwards compatible |
-|:--:|:--:|:--:|
-| <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-get-started.svg" width=250 alt="Modern navigation"/><br>Powerful WinUI 3 UI | <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-scenarios.svg" width=250 alt="Platform logo"/><br>Localization + power status + more<br> | <img src="https://docs.microsoft.com/media/illustrations/biztalk-host-integration-install-configure.svg" width=250 alt="Down-level logo"/><br>Down to Windows 10 1809 |
+<h3 align="center">
+  <a href="https://github.com/microsoft/WindowsAppSDK/blob/master/docs/README.md">About Windows App SDK</a>
+  <span> · </span>
+  <a href="https://aka.ms/windowsappsdkdocs">Documentation</a>
+  <span> · </span>
+  <a href="https://github.com/microsoft/WindowsAppSDK-Samples">Samples</a>
+</h3>
+
+Windows App SDK is a set of new developer components and tools that represent the next evolution in the Windows app development platform. The Windows App SDK provides a unified set of APIs and tools that can be used in a consistent way by any desktop app on Windows
+
+- **Delight users with modern UI:** [WinUI 3](https://aka.ms/winui) embodies Fluent Design to enable intuitive, accessible, and powerful experiences and the latest user interface patterns.
+- **Access new platform features:** use modern platform features like localization, notifications, power status and more.
+- **Use your current installer:** no requirement to use MSIX, but there are [reliability/security benefits to using MSIX](https://docs.microsoft.com/windows/msix/overview#key-features)!.
+- **Additive platform APIs:** only add what you need, leave the rest of your app as-is.
+- **Cross-framework support:** Works with Win32, WPF, WinForms, and more apps.
+- **Backwards compatible:** create modern apps for Windows 11 are backwards compatible** to Windows 10 October 2018 Update (build 17763 / version 1809)!
 
 ...and more, **without having to rewrite your app!**
 
-* Use your current installer *(no requirement to use MSIX, but there are [reliability/security benefits to using MSIX](https://docs.microsoft.com/windows/msix/overview#key-features)!)*
-* Additive platform APIs *(only add what you need, leave the rest of your app as-is)*
-* Works with Win32, WPF, WinForms, and more apps
 
-Plus, **create beautiful, modern apps for Windows 11 that are backwards compatible** to Windows 10 October 2018 Update (build 17763 / version 1809)!
-
-### Version support
+## 📃 Version support
 
 The Windows App SDK aims to work on supported versions of Windows.
 Right now we support down to build 17763 (version 1809/October 2018 Update) of Windows 10.
@@ -27,9 +37,9 @@ however we will do our best to ensure
 this is the exception and not the norm, and provide reasonable fallbacks when possible.
 
 
-### Helpful links
+## 🔗 Helpful links
 
-* [More details about the Windows App SDK](https://github.com/microsoft/WindowsAppSDK/blob/master/docs/README.md) -
+* [More details about the Windows App SDK]() -
 More on what the project is and how we're approaching the work.
 * [Video on Windows App SDK](https://techcommunity.microsoft.com/t5/video-hub/enterprise-development-futures-project-reunion/m-p/2177278) - Learn about the Windows App SDK in a 22 minute video!
 * [Contributor guide](docs/contributor-guide.md) - How to contribute to the Windows App SDK.
@@ -37,7 +47,7 @@ More on what the project is and how we're approaching the work.
 * [Developer docs](https://aka.ms/windowsappsdkdocs) - Microsoft documentation covering a wide range of Windows App SDK topics.
 * [Samples](https://github.com/microsoft/WindowsAppSDK-Samples) - Discover Windows App SDK samples to assist in learning how to use the latest features!
 
-### Contributing
+## 📢 Contributing
 
 [![Bugs](https://img.shields.io/github/issues/microsoft/windowsappsdk/bug)](https://github.com/microsoft/WindowsAppSDK/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
@@ -59,7 +69,7 @@ points if there's a gist or existing repo we can look at with you.
 3. **[Code contributions](docs/contributor-guide.md)**<br>
    More information regarding [contributing and developer guidelines here](docs/contributor-guide.md).
 
-## Data collection
+### Data collection
 
 The software may collect information about you and your use of the software and send it
 to Microsoft. Microsoft may use this information to provide services and improve our
@@ -72,7 +82,7 @@ at https://go.microsoft.com/fwlink/?LinkID=824704. You can learn more about data
 and use in the help documentation and our privacy statement. Your use of the software
 operates as your consent to these practices.
 
-## Legal notices
+### Legal notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
