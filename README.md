@@ -14,11 +14,11 @@
 
 Windows App SDK is a set of new developer components and tools that represent the next evolution in the Windows app development platform. The Windows App SDK provides a unified set of APIs and tools that can be used in a consistent way by any desktop app on Windows
 
-- **Delight users with modern UI:** [WinUI 3](https://aka.ms/winui) embodies Fluent Design to enable intuitive, accessible, and powerful experiences and the latest user interface patterns.
+- **Delight users with a modern UI:** [WinUI 3](https://aka.ms/winui) embodies Fluent Design to enable intuitive, accessible, and powerful experiences and the latest user interface patterns.
 - **Access new platform features:** use modern platform features like localization, notifications, power status and more.
-- **Use your current installer:** no requirement to use MSIX, but there are [reliability/security benefits to using MSIX](https://docs.microsoft.com/windows/msix/overview#key-features)!.
 - **Additive platform APIs:** only add what you need, leave the rest of your app as-is.
-- **Cross-framework support:** Works with Win32, WPF, WinForms, and more apps.
+- **Cross-framework support:** works with Win32, WPF, WinForms, and more apps.
+- **Use your current installer:** no requirement to use MSIX, but there are [reliability/security benefits to using MSIX](https://docs.microsoft.com/windows/msix/overview#key-features).
 - **Backwards compatible:** create modern apps for Windows 11 are backwards compatible** to Windows 10 October 2018 Update (build 17763 / version 1809)!
 
 ...and more, **without having to rewrite your app!**
